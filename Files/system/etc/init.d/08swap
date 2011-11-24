@@ -1,0 +1,4 @@
+#!/system/bin/sh
+busybox mount -o remount,rw /dev/block/mmcblk0p1 /cust_backup
+busybox swapon /cust/swap.file
+busybox sysctl -w vm.swappiness=1

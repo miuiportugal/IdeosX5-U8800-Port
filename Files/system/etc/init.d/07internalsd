@@ -1,0 +1,10 @@
+#!/system/bin/sh
+echo "make sure internal sdcard folder exists";
+INTERNAL_SDCARD=/data/sdcard
+if [ ! -d $INTERNAL_SDCARD ]; 
+  then
+    rm -r -f $INTERNAL_SDCARD;
+    mkdir -p $INTERNAL_SDCARD;
+    chmod -R 777 $INTERNAL_SDCARD;
+    chown -R 1000:1000 $INTERNAL_SDCARD;
+fi

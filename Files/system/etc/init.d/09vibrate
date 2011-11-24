@@ -1,0 +1,4 @@
+#!/system/bin/sh
+echo "0" > /sys/module/synaptics_i2c_rmi_1564/parameters/vibrate;
+echo "4" > /sys/module/synaptics_i2c_rmi_1564/parameters/dup_threshold;
+exit

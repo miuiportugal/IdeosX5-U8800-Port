@@ -1,0 +1,3 @@
+post-build=generic/libra_vision/vision:2.3.7/MIUI/1.11.24:userdebug/test-keys
+post-timestamp=1309493420
+pre-device=vision

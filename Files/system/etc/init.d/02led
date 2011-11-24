@@ -1,0 +1,3 @@
+#!/system/bin/sh
+echo "0" > /sys/module/RGB_led/parameters/off_when_suspended;
+exit

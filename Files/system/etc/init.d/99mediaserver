@@ -1,0 +1,3 @@
+#!/system/bin/sh
+#Stupid hack to ensure that mediaserver initializes correctly
+killall mediaserver
